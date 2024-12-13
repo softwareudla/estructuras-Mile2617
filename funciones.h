@@ -1,6 +1,3 @@
-
-#define FUNCIONES_H
-
 #define MaxLibros 20
 
 struct Libro {
