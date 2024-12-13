@@ -64,7 +64,9 @@ int buscarLibroPorTitulo(const char *titulo, int NumLibros, struct Libro libros[
 
 int buscarYEditarLibro(int NumLibros, struct Libro libros[]) {
     int opcion;
-    printf("\nBuscar libro por: 1. ID, 2. Titulo: ");
+    printf("\nBuscar libro por: ");
+    printf("\n 1. ID ");
+    printf("\n 2. Titulo \n  ");
     scanf("%d", &opcion);
 
     int bandera = -1;

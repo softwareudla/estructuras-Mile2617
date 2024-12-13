@@ -1,6 +1,5 @@
 # Prerequisites
 *.d
-funciones.h
 
 # Object files
 *.o
